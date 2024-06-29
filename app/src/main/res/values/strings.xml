@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">project2</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="signin">Sign in</string>
+    <string name="app_title">Road Events App</string>
+    <string name="login_error_empty_email">E-mail field cannot be empty!</string>
+    <string name="login_error_empty_pwd">Password field cannot be empty!</string>
+    <string name="login_error_invalid_credentials">Invalid e-mail or password!</string>
+    <string name="login_success">User login successful</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="back">Back</string>
+    <string name="signup_error_email_empty">E-mail field cannot be empty!</string>
+    <string name="signup_error_password_empty">Password field cannot be empty!</string>
+    <string name="signup_error_password_confirmation_empty">Password confirmation field cannot be empty!</string>
+    <string name="signup_error_password_no_match">Passwords do not match!</string>
+    <string name="signup_success">User created successfully!</string>
+    <string name="signout">Sign out</string>
+    <string name="signout_ok">You have been signed out.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="acceleration">Acceleration</string>
+    <string name="acceleration_value">%.2f m/s²</string>
+    <string name="speed">Speed</string>
+    <string name="speed_value">%.2f m/s</string>
+    <string name="view_map">View Map</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="braking_detection_toast_message">Braking Detected</string>
+    <string name="acceleration_detection_toast_message">Sudden Acceleration Detected</string>
+    <string name="speed_limit_violation_detection_toast_message">Speed Limit Violation Detected</string>
+    <string name="road_bump_detection_toast_message">Severe Road Bump Detected</string>
+    <string name="save_event_error">Error: The event could not be saved in the database.</string>
+    <string name="fetch_events_success">Events retrieved successfully.</string>
+    <string name="fetch_events_error">There was an error retrieving the events.</string>
+    <string name="error">Error</string>
+    <string name="no_events_found">No events of the selected category found.</string>
+    <string name="show_button">SHOW</string>
+    <string name="event_type">Event Type</string>
+    <string-array name="event_types">
+        <item>Sudden Braking</item>
+        <item>Sudden Accelerations</item>
+        <item>Speed Limit Violations</item>
+        <item>Severe Road Bumps</item>
+    </string-array>
+</resources>
